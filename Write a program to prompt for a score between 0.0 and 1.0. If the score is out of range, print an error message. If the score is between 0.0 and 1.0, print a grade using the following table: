@@ -1,0 +1,18 @@
+1   score = input("Enter Score: ")
+2   s =  float(score)
+3   x = 'Error'
+4   if s >= 0.9:
+5	    x = 'A'
+6   elif s >=0.8:
+7	     x='B'
+8   elif s >=0.7:
+9	     x='C'
+10  elif s >= 0.6:
+11	     x='D'
+12  elif s < .6:
+13 	     x ='F'
+14  else:
+15	      x ="Out of Range"
+16  print (x)
+
+
