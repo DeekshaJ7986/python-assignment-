@@ -1,18 +1,18 @@
-1  score=input("Please type a score between 0.0 and 1.0:")
-2  try:
-3    def computegrade():
-4      if float(score) >= 0.9 and float(score) <= 1.0:
-5        print("A")
-6.     elif float(score) >= 0.8 and float(score) <= 0.9:
-7        print("B")
-8      elif float(score) >= 0.7 and float(score) <= 0.8:
-9        print("C")
-10    elif float(score) >= 0.6 and float(score) <= 0.7:
-11       print("D")
-12    elif float(score) > 0 and float(score) <= 0.6:
-13      print("F")
-14    else:
-15.      print("Bad score.  Please run the program again.")  
-16.   computegrade()
-17  except: 
-18      print("Bad score.  Please run the program again.")
+  score=input("Please type a score between 0.0 and 1.0:")
+ try:
+def computegrade():
+     if float(score) >= 0.9 and float(score) <= 1.0:
+     print("A")
+   elif float(score) >= 0.8 and float(score) <= 0.9:
+    print("B")
+     elif float(score) >= 0.7 and float(score) <= 0.8:
+     print("C")
+  elif float(score) >= 0.6 and float(score) <= 0.7:
+    print("D")
+   elif float(score) > 0 and float(score) <= 0.6:
+   print("F")
+   else:
+  print("Bad score.  Please run the program again.")  
+  computegrade()
+except: 
+    print("Bad score.  Please run the program again.")
